@@ -1,5 +1,5 @@
 //Time Complexity: O(n)
-//Space Complexity: O(n) //for hashmap of n characters and hashset of max n characters
+//Space Complexity: O(n) //for hashmap of 26 characters and hashset of max 26 characters
 //Approach: for each charcter in string s, map it to correspondign character in string t. Also maintain a hashset
 // to maintain characters in t that have already been mapped by string s's characters. We set helps us tract if more than one character in string is mapped to same character in string t
 import java.util.*;
